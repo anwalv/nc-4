@@ -1,0 +1,10 @@
+[Unit]
+Description=Authentication Server for FTP Access
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/socat TCP4-LISTEN:7777,fork,pktinfo system:/usr/bin/authServer.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

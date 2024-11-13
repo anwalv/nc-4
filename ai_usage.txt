@@ -1,0 +1,2 @@
+I used AI to help with scripting and writing service file. It also helped me write a short description and installation for the readme.
+I also asked a few questions about working with iptables and asked about the command that allows you to auth via a script(I don't know why I forgot it).

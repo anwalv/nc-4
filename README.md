@@ -26,4 +26,4 @@ controls access to the FTP server based on IP address and authorization key.
     ```bash
     nc 172.22.234.41 7777
     ``` 
-(You need to change **172.22.234.41** to ip of VM where was runned configureServer.sh.
+(You need to change **172.22.234.41** to ip of VM where was runned configureServer.sh)

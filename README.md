@@ -23,5 +23,7 @@ controls access to the FTP server based on IP address and authorization key.
     ftp 172.22.234.41.
     ``` 
     If your address was not passed, then try using the command to attempt authorization:
+    ```bash
     nc 172.22.234.41 7777
+    ``` 
 (You need to change **172.22.234.41** to ip of VM where was runned configureServer.sh.
